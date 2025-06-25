@@ -7,7 +7,7 @@ interface SidebarProps {
   onLogout: () => void;
 }
 
-function Sidebar({ sidebarOpen, setSidebarOpen, onLogout }: SidebarProps) {
+function Sidebar({ sidebarOpen, onLogout }: SidebarProps) {
   const [activeItem, setActiveItem] = useState('dashboard');
 
   const navItems = [

@@ -10,7 +10,7 @@ function ChatbotPage({ department, setDepartment, onLogout }: { department: stri
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [history, setHistory] = useState<{ text: string; sender: string }[]>([
     { text: 'Hello, how can I help you today?', sender: 'bot' },
-    { text: 'Hello', sender: 'user' },
+    // { text: 'Hello', sender: 'user' },
   ]);
   const placeholder = department === 'Sales' ? 'Enter your sales query here...' : 'Enter your marketing query here...';
 
@@ -20,9 +20,9 @@ function ChatbotPage({ department, setDepartment, onLogout }: { department: stri
     setInput('');
   };
 
-  const handleQuickAction = (text: string) => {
-    setInput(text);
-  };
+  // const handleQuickAction = (text: string) => {
+  //   setInput(text);
+  // };
 
   return (
     <div className="main-layout">

@@ -11,7 +11,10 @@ A modern, responsive AI chatbot web application built with React, Vite, and Tail
 - **Tailwind CSS**: For rapid, utility-first styling
 
 ## Screenshots
-> Add screenshots of the login page and chatbot UI here
+![image](https://github.com/user-attachments/assets/c133adb0-1745-45cb-a37b-12572a7ead5b)
+![image](https://github.com/user-attachments/assets/3a5555b9-33a0-45b6-be52-ab095ec55f86)
+
+
 
 ## Tech Stack
 - [React](https://react.dev/)
